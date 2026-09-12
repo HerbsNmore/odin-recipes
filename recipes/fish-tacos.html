@@ -3,16 +3,18 @@
     <head>
         <meta charset="UTF-8">
         <title>Fish Tacos Recipe</title>
+        <link rel="stylesheet" href="../styles.css">
+
     </head>
     <body>
-        <h1>Delicious Fish Tacos</h1>
-         <img src="../images/fish-taco.jpg" alt="delicious fried fish tacos with mango salsa" height="400" width="500">
-        <h2>Description</h2>
+        <h1 class="header">Delicious Fish Tacos</h1>
+         <img id="pic1" src="../images/fish-taco.jpg" alt="delicious fried fish tacos with mango salsa" height="400" width="500">
+        <h2 class="smheader">Description</h2>
         <p>Enjoy these delicious fish tacos featuring crunchy, tender fried cod with a refreshing, tropical mango salsa. This recipe is simple to make and makes for a perfect weeknight meal!</p>
-        <h2>Ingredients</h2>
+        <h2 class="smheader">Ingredients</h2>
         <!--Oopps! I discovered a problem when I parsed this html code. line 14 element <p> is not allowed as a child element of ul element. Unfortunately, I'm not sure why or how, but I'm glad that I was informed. I removed the <p> element from the <ul> element-->
         <p>For Mango Salsa:</p>
-        <ul>  
+        <ul class="list">  
             <li>2 cups of ripe mangoes, medium diced</li>
             <li>1 whole jalapeno pepper, finely diced</li>
             <li>1/4 cup of  onion, finely diced</li>
@@ -21,7 +23,7 @@
             <li>juice from one lime</li>
         </ul>    
         <p>For Fried Fish:</p>
-        <ul>
+        <ul class="list">
             <li>2 lbs of Atlantic Cod filet</li>
             <li>1 cup of tempura batter mix, follow package instructions</li>
             <li>1 tsp of onion powder</li>
@@ -34,8 +36,8 @@
             <li>1 ripe sliced avocado (optional)</li>
             <li>fresh lime juice and extra cilantro for topping</li>
         </ul>
-        <h2>Steps</h2>
-        <ol>
+        <h2 class="smheader">Steps</h2>
+        <ol class="list">
             <li>Dice mangoes, jalapenos, onion, bell pepper and cilantro. Cut a lime in half and set aside for juicing. Combine in a medium sized bowl and add freshly squeezed lime juice. <em>If you would like less heat, remove seeds from jalapeno.</em> Set aside and refrigerate.</li>
             <li>Pat fish dry with paper towels and prepare tempura according to package instructions. Add seasonings to batter.</li>
             <li>Heat oil in a skillet suitable for frying. Heat oil to 350 degrees Fahrenheit. Batter fish (about 3 - 4 pieces) and fry in oil for about 2 - 3 minutes until golden brown and crispy. Set aside on a wire rack of paper towels to drain excess oil. Sprinkle salt to taste.</li>
